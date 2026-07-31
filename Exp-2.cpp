@@ -22,7 +22,7 @@ void callByAddress(int *x) //here, x is pointer which stores the address of a va
 }
 
 // Call by Reference
-void callByReference(int &x)
+void callByReference(int &x) 
 {
     x = x + 10;
     cout << "Inside Call by Reference: " << x << endl;
@@ -39,7 +39,7 @@ int main()
     cout << "After Call by Value: " << a << endl;
 
     // Call by Address
-    callByAddress(&a); //here, &a is the address of (a) , meaning pass the address of (a).
+    callByAddress(&a); //here, &a (& Apersand symbol) is the address of (a) , meaning pass the address of (a).
     cout << "After Call by Address: " << a << endl;
 
     // Call by Reference
