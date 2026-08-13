@@ -6,7 +6,7 @@ int main()
 {
     //g++ -o main.exe main.cpp(compile)
     //main.exe(run)
-   cout<<"Hello"<<endl;
+   cout<<"Hello"<<endl;  
 
    int a = 5;
    float b = 5.6f ;
