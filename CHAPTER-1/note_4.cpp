@@ -7,7 +7,7 @@ class Student
 
     string name; //global variables (class variables)
     int age;
-
+  
     public:
     void setData(string n , int a) //local variables
     {
