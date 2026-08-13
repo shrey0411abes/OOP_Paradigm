@@ -6,7 +6,7 @@ class student
     public:
 
     string name;
-
+  
     void display()
     {
         cout<<"Student Name: "<<name<<endl;
