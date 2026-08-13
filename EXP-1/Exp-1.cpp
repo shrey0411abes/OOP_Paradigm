@@ -54,21 +54,21 @@ public: //acess specifier (modifier)
 int main() //execution of program (logic) starts here
 {
     student s1;
-    //student s2;
-    //student s3;
-    //student s4;
-    //student s5; //here, s1 is the object
+    student s2;
+    student s3;
+    student s4;
+    student s5; //here, s1 is the object
 
     s1.input();      //function call
     s1.display();    //function call
-    // s2.input();
-    // s2.display();
-    // s3.input();
-    // s3.display();
-    // s4.input();
-    // s4.display();
-    // s5.input();
-    // s5.display();
+    s2.input();
+    s2.display();
+    s3.input();
+    s3.display();
+    s4.input();
+    s4.display();
+    s5.input();
+    s5.display();
 
 
     return 0;                 
