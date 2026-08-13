@@ -4,7 +4,7 @@ using namespace std;
 
 int sum(int *, int *); // Function declaration / prototype
 
-int main()
+int main()  
 {
     int a, b, r;  
     
